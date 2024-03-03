@@ -1,5 +1,9 @@
 # [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
 
+
+My notes - If it doesn't work. Makes sure python 2.7 is installed and path is set in environment variables. Then makes sure node sass is installed and variables are correct in gulp file. Also gulp.js is latest. 
+
+
 [Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
 ## Preview
