@@ -3,9 +3,13 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   .resume-item {
-    .resume-content {}
+    .resume-content {
+      
+    }
     .resume-date {
       min-width: none;
+      font-size: 16px;
+
     }
   }
 }
@@ -13,9 +17,12 @@ section.resume-section {
   section.resume-section {
     min-height: 100vh;
     .resume-item {
-      .resume-content {}
+      .resume-content {
+       
+      }
       .resume-date {
         min-width: 18rem;
+       
       }
     }
   }
@@ -24,5 +31,20 @@ section.resume-section {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  section.resume-section {
+    .resume-item {
+      .resume-content {
+        order: 2
+      }
+      .resume-date {
+        min-width: 18rem;
+        order: 1
+      }
+    }
   }
 }

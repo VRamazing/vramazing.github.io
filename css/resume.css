@@ -29,11 +29,17 @@ h6 {
 
 h1 {
   font-size: 5rem;
-  line-height: 4.5rem;
+  line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .subheading {
@@ -111,6 +117,7 @@ section.resume-section {
 }
 section.resume-section .resume-item .resume-date {
   min-width: none;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -125,6 +132,15 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+  }
+}
+@media (max-width: 768px) {
+  section.resume-section .resume-item .resume-content {
+    order: 2;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+    order: 1;
   }
 }
 .bg-primary {
